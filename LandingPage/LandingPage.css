@@ -1,0 +1,156 @@
+body{
+    background: linear-gradient(rgba(124, 211, 233, 0.514), rgb(247, 247, 247), rgba(223, 219, 155, 0.521)),
+        url('fundo.jpg') no-repeat center center;
+}
+
+header{
+    background: linear-gradient(rgba(0, 0, 0, 0.288), rgba(0, 0, 0, 0.13)),
+        url('fundo1.jpg') no-repeat center center;
+    background-size: cover;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+.titulo-section h1{
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    font-size: 7rem;
+    text-shadow: 2px 2px 2px #2a54af,
+        0 0 15px rgba(255, 255, 255, 0.712);
+    background: linear-gradient(90deg, #ffffff, #ffffff); 
+    background-clip: text;
+    color: transparent;
+    padding: 10%;
+}
+
+@media (max-width: 576px){
+    .titulo-section h1{
+        font-size: 4rem;
+    }
+}
+
+.form-section{
+    background-color: #f7f7f7;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    margin: 50px 0;
+}
+
+.form-section h2{
+    font-size: 3rem;
+    margin-bottom: 30px;
+    text-align: center;
+    color: #2f75c0;
+}
+
+form .form-group label{
+    font-weight: 500;
+    color: #333;
+    padding: 5px;
+}
+
+form .form-control{
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    padding: 10px;
+    transition: all 0.3s ease;
+}
+
+form .form-control:focus{
+    border-color: #007bff;
+    box-shadow: 0 0 8px rgba(0, 123, 255, 0.25);
+}
+
+button[type="submit"]{
+    background-color: #007bff;
+    border: none;
+    color: #fff;
+    padding: 12px;
+    font-size: 1rem;
+    border-radius: 6px;
+    transition: background-color 0.3s ease;
+}
+
+button[type="submit"]:hover{
+    background-color: #0056b3;
+    box-shadow: 0 4px 8px rgba(0, 123, 255, 0.4);
+}
+
+.card {
+    border: none;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: transform 0.4s ease, box-shadow 0.4s ease;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    width: 350px;
+}
+
+.card:hover{
+    transform: translateY(-10px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+.card img{
+    height: 400px;
+    object-fit: cover;
+}
+
+.card-body{
+    padding: 20px;
+    text-align: center;
+}
+
+.card-title{
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #007bff;
+}
+
+.card-text{
+    font-size: 1rem;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.btn-primary{
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    transition: background-color 0.3s ease;
+}
+
+footer{
+    background-color: #2a3138;
+    color: #fff;
+    padding: 20px;
+    margin-top: 40px;
+    text-align: center;
+    width: 100%;
+}
+
+footer p{
+    margin: 0;
+    font-size: 0.9rem;
+}
+
+.video-section{
+    padding: 40px;
+    text-align: center;
+}
+
+.text{
+    color: rgb(70, 70, 70);
+    font-size: 1.2rem;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.cursos h2{
+    font-size: 4.5rem;
+    font-family: 'Montserrat', sans-serif;
+    color: #2f75c0; 
+    text-align: center; 
+    padding: 20px;
+    margin-top: 40px;
+}
+
